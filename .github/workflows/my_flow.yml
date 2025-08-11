@@ -17,9 +17,8 @@ jobs:
       - name: hello world
         run: echo "hello world"
         shell: bash
-  
   second_job:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: goodbye world
         run : echo "goodbye world"
